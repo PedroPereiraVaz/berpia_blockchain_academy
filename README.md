@@ -11,7 +11,7 @@
 
 Este módulo transforma el sistema de eLearning de Odoo 18 en una plataforma de certificación validada en Blockchain. Permite a las instituciones educativas ofrecer **cursos con certificación opcional en blockchain** mediante variantes de producto nativas.
 
-Al aprobar el examen (Survey), el sistema genera un **Certificado PDF Inmutable**, calcula su hash criptográfico (SHA-256) y lo registra permanentemente en la blockchain utilizando el núcleo `odoo_blockchain_core`.
+Al aprobar el examen (Survey), el sistema genera un **Certificado PDF Inmutable**, calcula su hash criptográfico (SHA-256) y lo registra permanentemente en la blockchain utilizando el núcleo `berpia_blockchain_core`.
 
 ### ✅ Características Principales
 
@@ -28,7 +28,7 @@ Al aprobar el examen (Survey), el sistema genera un **Certificado PDF Inmutable*
 
 Para su correcto funcionamiento, requiere:
 
-- `odoo_blockchain_core` (Núcleo de conexión Blockchain)
+- `berpia_blockchain_core` (Núcleo de conexión Blockchain)
 - `website_slides` (eLearning)
 - `website_slides_survey` (Certificaciones)
 - `website_sale` (eCommerce)
@@ -71,9 +71,9 @@ Para su correcto funcionamiento, requiere:
 4.  **Emisión**:
     - Si compró la variante **Estándar**: Recibe su diploma normal de Odoo.
     - Si compró la variante **Blockchain**:
-      1.  Se genera el PDF inmutable.
-      2.  Se registra el hash en Blockchain (Smart Contract).
-      3.  Recibe un correo con el PDF inmutable adjunto.
+        1.  Se genera el PDF inmutable.
+        2.  Se registra el hash en Blockchain (Smart Contract).
+        3.  Recibe un correo con el PDF inmutable adjunto.
 
 ---
 
