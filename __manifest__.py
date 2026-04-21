@@ -1,7 +1,9 @@
 {
-    "name": "Odoo Blockchain Certification eLearning",
+    "name": "BerpIA - Blockchain Academy",
     "version": "18.0.1.0.0",
-    "category": "Website/eLearning",
+    "category": "BerpIA",
+    "author": "Pedro Pereira Vaz",
+    "website": "https://wavext.io",
     "summary": "Certificación blockchain de cursos",
     "description": """
         Este módulo añade la posibilidad de certificar en blockchain los certificados
@@ -13,7 +15,6 @@
         - Nativo de Odoo (usa atributos de producto existentes)
         - Validación automática al completar el curso
     """,
-    "author": "Pedro Pereira",
     "depends": [
         "website_slides",
         "website_slides_survey",
